@@ -1,6 +1,6 @@
 ## Info
-This is an API for (https://www.roblox.com/games/284076212/)[Retail Tycoon]
-
+This is an API for [Retail Tycoon]
+(https://www.roblox.com/games/284076212/)
 ***
 
 ## Example Usage (Auto Farm)
