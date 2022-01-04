@@ -135,6 +135,8 @@ end
 
 API.CleanStore = function( )
     
+    if (not currentTycoon) then return end
+
     for _,tile in pairs(currentTycoon.Tiles:GetChildren()) do
 
         if (not tile:FindFirstChild('Spill')) then continue end
@@ -170,6 +172,8 @@ end
 
 API.CatchRobbers = function()
     
+    if (not currentTycoon) then return end
+
     for _,hitBoxPart in pairs(NPCModel:GetDescendants()) do
         if (hitBoxPart.Name == 'HitBotPart') then
             if (hitBoxPart.Parent:FindFirstChild('Num')) then
@@ -187,9 +191,7 @@ API.ClearStore = function()
     if (not currentTycoon) then return end 
 
     for _,wall in pairs(currentTycoon.Walls:GetChildren()) do
-        
         Functions.DestroyWall:FireServer(false, wall)
-
     end
 
     for _,tile in pairs(currentTycoon.Tiles:GetChildren()) do
