@@ -1,4 +1,4 @@
-local API = loadstring(game:HttpGet('https://raw.githubusercontent.com/BigBoyKlem/RetailTycoonAPI/main/API.lua'))()
+local API = loadstring(game:HttpGet('https://raw.githubusercontent.com/BigBoyKlem/RetailTycoonAPI/main/api.lua'))()
 local RunService = game:GetService('RunService')
 
 task.spawn(
