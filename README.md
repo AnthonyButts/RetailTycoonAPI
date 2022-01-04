@@ -1,6 +1,8 @@
 ## Info
 This is an API for (https://www.roblox.com/games/284076212/)[Retail Tycoon]
 
+***
+
 ## Example Usage (Auto Farm)
 Import the API & Run Serivce:
 ```lua
@@ -28,5 +30,8 @@ while (true) do
   end
 end
 ```
+
+***
+
 ## Need More Help?
 If you need more help, you can view the documentation [here](https://github.com/BigBoyKlem/RetailTycoonAPI/wiki/Documentation).
